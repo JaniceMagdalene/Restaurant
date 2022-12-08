@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER</title>
+    <style>
+        body{
+            height: 100%;
+            background-image: url("https://cdn.wallpapersafari.com/20/74/xVqyYu.jpg");
+            background-size: cover;
+            background-repeat:no-repeat;
+        }
+        .logo
+        {
+            font-style: oblique;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: medium;
+            color: rgb(233, 13, 24);
+            text-align: center;
+            align-items: center;
+            position: relative;
+            background-color: rgb(238, 120, 199);
+        }
+        .logo:hover{
+            background-color: cyan;
+        }
+        .navbar{
+            background-color: rgb(185, 202, 212);
+            justify-content: center;
+            display: flex;
+            padding-left: 60px;
+            margin: 12px;
+        }
+        a{
+         padding: 10px;
+         list-style-type: none;
+            font-size: xx-large;
+            color: rgb(197, 29, 107);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        a:hover{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: xx-large;
+            font-style: normal;
+            color: rgb(112, 192, 227);
+            background-color:rgb(236, 247, 243);
+            font-weight: bolder;
+        }
+        form
+        {
+            text-align: center;
+            font-size: x-large;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: rgb(24, 50, 241);
+            font-weight: bold;
+            position: relative;
+            left: 200px;
+        }
+        .rad{
+            color: brown;
+        }
+        .dea{
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <h1>COMPLETE SATISFATION OF YOUR CARVINGS</h1>
+    </div>
+    <div class="navbar">
+       <a href="C:\Users\janic\OneDrive\Desktop\NEWPROJECT\demo.html" style="text-decoration: none;">HOME</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="C:\Users\janic\OneDrive\Desktop\NEWPROJECT\reg.html" style="text-decoration: none;">BOOK RESTAURANT</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="C:\Users\janic\OneDrive\Desktop\NEWPROJECT\menu.html" style="text-decoration: none;">MENU</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="C:\Users\janic\OneDrive\Desktop\NEWPROJECT\contact.html" style="text-decoration: none;">CONTACT US</a>
+    </div> 
+               <form>
+                <label>CUSTOMER NAME</label><br>
+                <input type="text" name="firstname"style="width:200px; height:20px;margin: 10px;border: 20px;border-radius: 1.1rem;box-shadow: 1.1rem; border-width: 0.3rem;border-style:groove;border-color: crimson;"><br>
+                <label>EMAIL ID</label><br>
+                <input type="email" name="email" style="width:200px; height:20px;margin: 10px;border: 20px;border-radius: 1.1rem;box-shadow: 1.1rem; border-width: 0.3rem;border-style:groove;border-color: crimson;"><br><br>
+                <label>PICK YOUR CHOICE</label><br>
+                <div class="rad">
+                <input type="radio" name="ty" value="veg" style="width:20px; height:20px;border-radius: 1.1rem;border-width: 0.3rem;border-style:groove">VEG
+                <input type="radio" name="ty" value="non-veg" style="width:20px; height:20px;border-radius: 1.1rem;border-width: 0.3rem;border-style:groove">NON-VEG<br><br>
+                </div>
+                <label>SELECT NUMBER OF PERSONS</label><br>
+                <div class="dea">
+                <input type="radio" name="che" value="1-4" style="width:20px; height:20px;border-radius: 1.1rem;border-width: 0.3rem;border-style:groove">1-4
+                <input type="radio" name="che" value="5-8" style="width:20px; height:20px;border-radius: 1.1rem;border-width: 0.3rem;border-style:groove">5-8
+                <input type="radio" name="che" value="9-14" style="width:20px; height:20px;border-radius: 1.1rem;border-width: 0.3rem;border-style:groove">9-14
+                <input type="radio" name="che" value="more than 14" style="width:20px; height:20px;border-radius: 1.1rem;border-width: 0.3rem;border-style:groove">more than 14
+                </div><br>
+                <label>SELECT DATE </label><br>
+                <input type="date" style="width: 100px;height: 20px;border-width:0.3rem;border-style:groove;border-color: brown;border-radius: 1.1rem;"> <br><br>
+                <label>CONTACT NUMBER</label><br>
+                <input type="text" style="width: 100px;height: 20px;border-width:0.3rem;border-style:groove;border-color: brown;border-radius: 1.1rem;"><br><br>
+           
+        </form>
+        <form method="POST" action="file:///C:/Users/janic/OneDrive/Desktop/NEWPROJECT/menu.html">
+            <input type="submit" style="width:100px; height: 30px;border-radius: 1.1rem;border-width: 0.3rem;border-style:groove;border-color: brown;"/>
+        </form>
+</body>
+</html>
